@@ -19,7 +19,11 @@ Users can play one of three casino games in a channel designated by the bot admi
 * **Blackjack** — Users can wager fake money on blackjack. The user supplies a wager, and the bot deals the user a hand.
 
 # ps_maker_crop.py
-This script automates the creation of publication-quality figures. The user inputs a list of galaxy IDs, and the script queries a database of Hubble Space Telesacope images, downloads the corresponding data cubes, then outputs a set of images center-cropped on the primary galaxy.
+This script automates the creation of publication-quality figures. The user inputs a list of galaxy IDs, and the script queries a database of Hubble Space Telesacope image cubes, downloads the corresponding cubes, then outputs a set of images center-cropped on the primary galaxy.
+
+Users can choose how many panels they'd like, which slices of the image cubes they want to display, and in what order they should be arranged.
+
+![Example output](https://i.imgur.com/LtukLvd.png)
 
 # sf_calculator.py
 This simple script uses the Kennicutt–Schmidt law to calculate and plot a galaxy's total star formation rate as a function of time based on that galaxy's initial gas density.
