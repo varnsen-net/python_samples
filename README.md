@@ -7,11 +7,16 @@ Garybot is an Internet Relay Chat (IRC) bot with a variety of quality-of-life an
 * **YouTube** — Parses any YouTube links in user messages and fetches video information through the YouTube API. Sends a message to the channel containing the video title, uploader, duration, views, and likes.
 * **Twitter** — Parses any Twitter links in user messages and fetches the tweet through the Twitter API. Sends a message to the channel containing the user, date, and tweet text.
 
+#### User functions
+* **top5** — The user inputs a string, and the bot returns a top-five list of users based on how many times they have used the input string. The input string can contain regex.
+* **ask** — The user unputs a channel nick, and the bot returns a random message from that user to the channel.
+* **Wolfram|Alpha** — The user can submit a query to Wolfram|Alpha. The bot returns the response from the Wolfram|Alpha Short Answers API.
+
 #### Casino Games
 Users can play one of three casino games in a channel designated by the bot admin. Each new player receives a starting balance that is updated each time the user plays a game.
-* **Coin Flips** Users can wager fake money on coin flips. The user supplies a wager and a side selection. The bot flips a digital coin, returns the result, calculates the user's earnings, and updates the user's balance.
-* **Video Poker** Users can wager fake money on video poker. The user supplies a wager, then the bot deals the user 5 cards. The user then supplies a list of cards to hold, and the bot deals the final hand and returns the results.
-* **Blackjack** Users can wager fake money on blackjack. The user supplies a wager, and the bot deals the user a hand.
+* **Coin Flips** — Users can wager fake money on coin flips. The user supplies a wager and a side selection. The bot flips a digital coin, returns the result, calculates the user's earnings, and updates the user's balance.
+* **Video Poker** — Users can wager fake money on video poker. The user supplies a wager, then the bot deals the user 5 cards. The user then supplies a list of cards to hold, and the bot deals the final hand and returns the results.
+* **Blackjack** — Users can wager fake money on blackjack. The user supplies a wager, and the bot deals the user a hand.
 
 # ps_maker_crop.py
 This script automates the creation of publication-quality figures. The user inputs a list of galaxy IDs, and the script queries a database of Hubble Space Telesacope images, downloads the corresponding data cubes, then outputs a set of images center-cropped on the primary galaxy.
