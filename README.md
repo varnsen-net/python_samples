@@ -30,3 +30,5 @@ This simple script uses the Kennicutt–Schmidt law to calculate and plot a gala
 
 # sig1_sSFR_4panel_plot.py
 This script creates a publication-quality plot of high-redshift galaxies with respect to two parameters: star-formation rate, and the mass-density within the galaxy's central kiloparsec. It outputs a plot with four panels, each panel corresponding to one of four redshift bins.
+
+![Example output](https://i.imgur.com/yeO2rhJ.png)
