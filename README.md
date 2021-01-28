@@ -1,5 +1,32 @@
 This repository contains a sample of Python scripts I've written.
 
+# diffevo-optimizer-nd.py
+This is a differential evolution optimizer that takes an n-dimensional array of parameters as one of its inputs — very helpful for models that take arrays of weights. You can also supply your own model and loss function.
+
+This optimizer works by creating a population of candidate solutions and allowing them to "evolve" by stochastically exchanging weights to converge on the "fittest" solution. See the following literature review for more details: https://www.frontiersin.org/articles/10.3389/fbuil.2020.00102/full
+
+![Alt Text](https://media4.giphy.com/media/BN3kcymieq8RKcc6uK/giphy.gif)
+![Alt Text](https://media4.giphy.com/media/ijGir6u7krPR6itcgX/giphy.gif)
+
+
+# ps_maker_crop.py
+This script automates the creation of publication-quality figures. The user inputs a list of galaxy IDs, and the script queries a database of Hubble Space Telesacope image cubes, downloads the corresponding cubes, then outputs a set of images center-cropped on the primary galaxy.
+
+Users can choose how many panels they'd like, which slices of the image cubes they want to display, and in what order they should be arranged.
+
+![Example output](https://i.imgur.com/LtukLvd.png)
+
+
+# sf_calculator.py
+This simple script uses the Kennicutt–Schmidt law to calculate and plot a galaxy's total star formation rate as a function of time based on that galaxy's initial gas density.
+
+
+# sig1_sSFR_4panel_plot.py
+This script creates a publication-quality plot of high-redshift galaxies with respect to two parameters: star-formation rate, and the mass-density within the galaxy's central kiloparsec. It outputs a plot with four panels, each panel corresponding to one of four redshift bins.
+
+![Example output](https://i.imgur.com/yeO2rhJ.png)
+
+
 # garybot
 Garybot is an Internet Relay Chat (IRC) bot with a variety of quality-of-life and entertainment functions.
 
@@ -17,18 +44,3 @@ Users can play one of three casino games in a channel designated by the bot admi
 * **Coin Flips** — Users can wager fake money on coin flips. The user supplies a wager and a side selection. The bot flips a digital coin, returns the result, calculates the user's earnings, and updates the user's balance.
 * **Video Poker** — Users can wager fake money on video poker. The user supplies a wager, then the bot deals the user 5 cards. The user then supplies a list of cards to hold, and the bot deals the final hand and returns the results.
 * **Blackjack** — Users can wager fake money on blackjack. The user supplies a wager, and the bot deals the user a hand.
-
-# ps_maker_crop.py
-This script automates the creation of publication-quality figures. The user inputs a list of galaxy IDs, and the script queries a database of Hubble Space Telesacope image cubes, downloads the corresponding cubes, then outputs a set of images center-cropped on the primary galaxy.
-
-Users can choose how many panels they'd like, which slices of the image cubes they want to display, and in what order they should be arranged.
-
-![Example output](https://i.imgur.com/LtukLvd.png)
-
-# sf_calculator.py
-This simple script uses the Kennicutt–Schmidt law to calculate and plot a galaxy's total star formation rate as a function of time based on that galaxy's initial gas density.
-
-# sig1_sSFR_4panel_plot.py
-This script creates a publication-quality plot of high-redshift galaxies with respect to two parameters: star-formation rate, and the mass-density within the galaxy's central kiloparsec. It outputs a plot with four panels, each panel corresponding to one of four redshift bins.
-
-![Example output](https://i.imgur.com/yeO2rhJ.png)
