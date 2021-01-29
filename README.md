@@ -6,7 +6,7 @@ This is a differential evolution optimizer that takes an n-dimensional array of 
 This optimizer works by creating a population of candidate solutions and allowing them to "evolve" by stochastically exchanging weights to converge on the "fittest" solution. See the following literature review for more details: https://www.frontiersin.org/articles/10.3389/fbuil.2020.00102/full
 
 ![Alt Text](https://media4.giphy.com/media/BN3kcymieq8RKcc6uK/giphy.gif)
-![Alt Text](https://media4.giphy.com/media/ijGir6u7krPR6itcgX/giphy.gif)
+![Alt Text](https://media4.giphy.com/media/awJvhTrgXkPyTN6IDt/giphy.gif)
 
 
 # ps_maker_crop.py
