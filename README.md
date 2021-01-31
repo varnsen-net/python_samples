@@ -3,11 +3,15 @@ This repository contains a sample of Python scripts I've written.
 # diffevo-optimizer-nd.py
 This is a differential evolution optimizer that takes an n-dimensional array of parameters as one of its inputs — very helpful for models that take arrays of weights. You can also supply your own model and loss function.
 
-This optimizer works by creating a population of candidate solutions and allowing them to "evolve" by stochastically exchanging weights to converge on the "fittest" solution. See the following literature review for more details: https://www.frontiersin.org/articles/10.3389/fbuil.2020.00102/full
+A differential evolution optimizer works by creating a population of candidate solutions and allowing them to "evolve" by stochastically exchanging weights to converge on the "fittest" solution. See the following literature review for more details: https://www.frontiersin.org/articles/10.3389/fbuil.2020.00102/full
 
+#### Example implimentations
 ![Alt Text](https://media4.giphy.com/media/BN3kcymieq8RKcc6uK/giphy.gif)
+Fitting a line with a Legendre polynomial of degree 20 as the model. 
 ![Alt Text](https://media4.giphy.com/media/awJvhTrgXkPyTN6IDt/giphy.gif)
+Fitting a surface with a two-dimensional Legendre polynomial as the model. The model takes an n×m array of parameters, and in this case I optimized a 5×5 array.
 ![Alt Text](https://media2.giphy.com/media/dfRjfXVm043oUeyq8T/giphy.gif)
+Fitting a mock light profile of a high redshift galaxy. I generated a mock light profile of a galaxy using a so-called two-component sersic, then recover the parameters of the profile. The image displayed is the model-subtracted residual image. It does a good job of recovering the sersic parameters, 
 
 
 # ps_maker_crop.py
