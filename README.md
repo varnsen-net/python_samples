@@ -14,9 +14,9 @@ Fitting a line with a Legendre polynomial of degree 20 as the model.
 
 Fitting a surface with a two-dimensional Legendre polynomial as the model. The model takes an n×m array of parameters, and in this case I optimized a 5×5 array.
 
-![Alt Text](https://media2.giphy.com/media/dfRjfXVm043oUeyq8T/giphy.gif)
+![Alt Text](https://media2.giphy.com/media/jdI4VUR4lbvBOyClwB/giphy.gif)
 
-Fitting a mock light profile of a high redshift galaxy. I generated a mock light profile of a galaxy using a so-called two-component sersic, then recovered the parameters of the profile. The image displayed is the model-subtracted residual image. It does a good job of recovering the sersic parameters. 
+Fitting a mock light profile of a high redshift galaxy. I generated a mock light profile (right panel) of a galaxy using a so-called two-component sersic, then recovered the parameters of the profile. The left panel is the model-subtracted residual image. It does a good job of recovering the sersic parameters. 
 
 
 # ps_maker_crop.py
